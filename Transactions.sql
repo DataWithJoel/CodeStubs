@@ -13,6 +13,11 @@ BEGIN TRY
 --WHERE [dbo].[T1].[Title] = N'az'
 
 
+SELECT * FROM sys.dm_tran_active_transactions
+SELECT * FROM sys.dm_tran_database_transactions
+SELECT * FROM sys.dm_tran_session_transactions
+
+
 COMMIT TRANSACTION [Tran1]
 
 END TRY
