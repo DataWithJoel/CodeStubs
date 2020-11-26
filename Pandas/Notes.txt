@@ -4,3 +4,4 @@ df.set_index('columnName') will change the Df from using the default index (int 
 
 
 use df.loc[index] to get the rows for that index
+I guess you need to use iloc(index) if you want to pass it an integer index like the default? TODO investigate this
