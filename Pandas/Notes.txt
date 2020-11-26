@@ -1,0 +1,6 @@
+
+
+df.set_index('columnName') will change the Df from using the default index (int 0-N) and instead use the column as the index
+
+
+use df.loc[index] to get the rows for that index
